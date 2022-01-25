@@ -1,0 +1,209 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Hursheys;
+}
+html , body
+{
+    width: 100%;
+    height: 100%;
+}
+#main
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color:darkgray;
+}
+#left
+{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: black;
+}
+#center
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://wallpaper.dog/large/17000004.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#right
+{
+    position: relative;
+    width: 20%;
+    height: 100%;
+   
+   
+}
+#rtop
+{
+    width: 100%;
+    height: 80%;
+    background-image:url(https://1.bp.blogspot.com/-e_rpW8Vnn5M/YDHkcxnTLdI/AAAAAAAAG2U/ieMTYH-yVJI6GyIC-10Am_1JPQ48GVVywCLcBGAsYHQ/s1334/Supernova%2BWallpaper%2Bfor%2BDesktop%2Band%2BLaptop%2BUltra%2BHD%2B4k%2B%252811%2529.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#rbtm
+{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    letter-spacing: 8px ;
+    font-weight: 10;
+}
+#rbtm:hover
+{
+    background-color: black;
+    color: white;
+    letter-spacing: 20px;
+    cursor: pointer;
+}
+#rbtm #d
+{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+#left #text
+{
+    width: 40%;
+    height: 64%;
+    color: transparent;
+    -webkit-text-stroke : .8px white;
+    position: absolute;
+    font-weight: 900;
+    border-top: 3px solid white;
+     left: 90%;
+    top: 1%; 
+    font-size: 16.835px;
+    letter-spacing: .3284vw;
+    z-index: 999;
+    border-bottom: 3px solid white;
+    
+}
+#left #text h1
+{
+    font-size: 27.9px;
+}
+#left #text:hover
+{
+    font-family: Hursheys;
+    background-color: rgba(255, 255, 255, 0.288);
+    -webkit-text-stroke : .8px black;
+}
+#linespace
+{
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    /* transform: translate(0% , -50%); */
+    height: 8%;
+    width: 100%;
+    z-index: 99;
+    border-top: .3px solid white;
+    border-bottom: .3px solid white;
+    letter-spacing: 5px;
+    color: white;
+}
+#linespace:hover
+{
+    background-color: rgba(255, 255, 255, 0.37);
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke : .3px white;
+    font-family :Gilroy ;
+    font-weight: 4000;
+}
+#a
+{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 20px;
+    font-family: Gilroy;
+
+}
+#b
+{
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    font-family: Gilroy;
+    font-weight:900;
+    font-size: 20px;
+
+}
+#circle 
+{
+    left: 80%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    border: .3px solid rgba(255, 255, 255, 0.349);
+}
+#circle h3
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 5px;
+}
+#circle:hover
+{
+    background-color: rgba(255, 255, 255, 0.37);
+    cursor: pointer;
+}
+#cbtm
+{
+    position: relative;
+    font-size: 40px;
+    top: 80%;
+    left: 0%;
+    letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+}
+#c
+{
+    font-size: 120px;
+}
+#e
+{
+    position: absolute;
+    left: 5%;
+    top : 30%;
+    z-index: 999;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+#lbtm
+{
+    position: relative;
+    font-size: 40px;
+    top: 80%;
+    left: 0%;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+}
+#f
+{
+position: absolute;
+left: 5%;
+top : 0%;
+transform: translate(0% , 70%);
+z-index: 999;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
